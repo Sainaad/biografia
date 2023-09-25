@@ -5,18 +5,31 @@
     background-color: #eee;
     min-height: 80vh;
     margin: 0 auto;
-    text-align: justify;
+}
+
+.texto-principal2 {
+    background-color: #eee;
+    text-align: center;
+    max-width: 1000px;
+    min-height: 80vh;
+    margin: 0 auto;
+    padding: 0px;
 }
 
 .img-persona {
-    width: 100%;
-    height: 100%;
     object-fit: fill;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 0px;
 }
 
 h1 {
     text-align: left;
     margin: 0px;
+}
+
+h2{
+    font-size: 30px;
 }
 
 body {
@@ -71,14 +84,15 @@ a:hover {
 .coluna30 {
     width: 30%;
     background-color: #eee; 
-    padding: 10px; 
+    padding: 0px; 
+    margin: 0px;
 }
 
 /* Estilo para a coluna com 70% de largura */
 .coluna70 {
     width: 70%;
     background-color: #eee; 
-    padding: 10px; 
+    padding: 0px; 
 }
 
 footer {
@@ -90,4 +104,9 @@ footer {
 
 .bold {
     font-weight: bold;
+}
+
+p{
+    text-align: justify;
+    font-size: 20px;
 }
