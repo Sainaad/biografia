@@ -32,7 +32,7 @@ h1 {
     margin: 0px;
 }
 
-h2{
+h2 {
     font-size: 30px;
 }
 
@@ -40,10 +40,36 @@ body {
     background-color: #eee;
 }
 
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+.relogio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.clock {
+    font-size: 4em;
+    color: #ffffff;
+    background-color: rgb(0, 100, 187);
+}
+
+
 .nav-container {
     display: grid;
-    grid-template-columns: 25% 75%; /* Define as colunas: 25% e 75% */
-    align-items: center; /* Centralizar verticalmente os elementos */
+    grid-template-columns: 25% 75%;
+    /* Define as colunas: 25% e 75% */
+    align-items: center;
+    /* Centralizar verticalmente os elementos */
     padding: 15px;
     background-color: rgb(0, 100, 187);
     color: #fff;
@@ -74,33 +100,33 @@ a:hover {
     color: rgb(0, 100, 187);
     padding: 10px;
     border-radius: 5px;
-    transition: 0.5s ;
+    transition: 0.5s;
 }
 
 /* Estilo para a área central */
 .area-central {
     display: flex;
     justify-content: space-between;
-    padding: 20px; 
+    padding: 20px;
 }
 
 /* Estilo para a coluna com 30% de largura */
 .coluna30 {
     width: 30%;
-    background-color: #eee; 
-    padding: 0px; 
+    background-color: #eee;
+    padding: 0px;
     margin: 0px;
 }
 
 /* Estilo para a coluna com 70% de largura */
 .coluna70 {
     width: 70%;
-    background-color: #eee; 
-    padding: 0px; 
+    background-color: #eee;
+    padding: 0px;
 }
 
 footer {
-    background-color:  rgb(0, 100, 187);
+    background-color: rgb(0, 100, 187);
     border-radius: 5px;
     color: #fff;
     padding: 40px;
@@ -110,7 +136,7 @@ footer {
     font-weight: bold;
 }
 
-p{
+p {
     text-align: justify;
     font-size: 20px;
 }
@@ -124,7 +150,7 @@ button {
     font-size: 20px;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(0, 34, 187);
     color: #fff;
     transition: 0.5s;
